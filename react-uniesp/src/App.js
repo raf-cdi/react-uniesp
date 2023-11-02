@@ -4,7 +4,9 @@ import Card from './componentes/layout/Card';
 import Pai from './componentes/familia/Pai';
 import Padrasto from './componentes/familia/Padrasto';
 import Filho from './componentes/familia/Filho';
+import TabelaProduto from './componentes/repeticao/TabelaProduto';
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
 
     return (
@@ -25,6 +27,9 @@ export default () => {
                         <Filho nome="Chamando Filho 1"/>
                         <Filho nome="Chamando Filho 2"/>
                         <Filho nome="Chamando Filho 3"/>
+                </Card>
+                <Card titulo="Tabela Produtos" color='#FFD700'>
+                        <TabelaProduto/>
                 </Card>
             </div>
             
