@@ -5,6 +5,7 @@ import Pai from './componentes/familia/Pai';
 import Padrasto from './componentes/familia/Padrasto';
 import Filho from './componentes/familia/Filho';
 import TabelaProduto from './componentes/repeticao/TabelaProduto';
+import Formulario from './componentes/formulario/formulario';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
@@ -30,6 +31,9 @@ export default () => {
                 </Card>
                 <Card titulo="Tabela Produtos" color='#FFD700'>
                         <TabelaProduto/>
+                </Card>
+                <Card titulo="Formulario" color='#FFD700'>
+                        <Formulario></Formulario>
                 </Card>
             </div>
             
